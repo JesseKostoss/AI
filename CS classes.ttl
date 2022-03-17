@@ -8,7 +8,7 @@ _:BN0	rdf:type foaf:class;
 
 _:BN1	rdf:type foaf:class;
 	foaf:name "CS102";
-	univ:taughtBy "Yusuf Albayram", "Mahdieh Zabihimayvan";
+	univ:taughtBy "Yusuf Albayram", "Mahdieh Zabihimayvan".
 
 _:BN2	rdf:type foaf:class;
 	foaf:name "CS152";
