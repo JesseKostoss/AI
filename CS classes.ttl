@@ -1,0 +1,31 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix univ: <http://www.cs.ccsu.edu/~neli/university.owl#>.
+
+_:BN0	rdf:type foaf:class;
+	foaf:name "CS101";
+	univ:taughtBy "Tom King", "Fatemah Abdollahzadeh", "Chad Williams".
+
+_:BN1	rdf:type foaf:class;
+	foaf:name "CS102";
+	univ:taughtBy "Yusuf Albayram", "Mahdieh Zabihimayvan";
+
+_:BN2	rdf:type foaf:class;
+	foaf:name "CS152";
+	univ:taughtBy "Steven Ambrosini", "Jeffery Blankenship", "Neli Zalatareva".
+
+_:BN3	rdf:type foaf:class;
+	foaf:name "CS153";
+	univ:taughtBy "Sixia Chen", "Noris Fair".
+
+_:BN4	rdf:type foaf:class;
+	foaf:name "CS253";
+	univ:taughtBy "Edward Freeman", "Bradley Kjell", "Stanislav Kurkovsky", "Zdravko Markov".
+
+_:BN5	rdf:type foaf:class;
+	foaf:name "CS452";
+	univ:taughtBy "Steven Mead", "Muthu Sankaran".
+
+_:BN6	rdf:type foaf:class;
+	foaf:name "CS453";
+	univ:taughtBy "Paul Uccello".
