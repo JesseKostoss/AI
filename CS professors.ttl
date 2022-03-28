@@ -10,7 +10,7 @@ _:BN0   rdf:type foaf:person;
 	foaf:email "KingTL@ccsu.edu";
 	foaf:phone "860.832.0113";
 	univ:teaches "CS101";
-	foaf:knows _:BN1, _BN2.
+	foaf:knows _:BN1, _:BN2.
 
 _:BN1	rdf:type foaf:person;
 	foaf:name "Fatemah";
@@ -19,7 +19,7 @@ _:BN1	rdf:type foaf:person;
 	foaf:email "Abdollah@ccsu.edu";
 	foaf:phone "860.832.2714";
 	univ:teaches "CS101";
-	foaf:knows _:BN0, _BN2, _BN8.
+	foaf:knows _:BN0, _:BN2, _:BN8.
 
 _:BN2	rdf:type foaf:person;
 	foaf:name "Yusuf";
@@ -28,7 +28,7 @@ _:BN2	rdf:type foaf:person;
 	foaf:email "yusuf.albayram@ccsu.edu";
 	foaf:phone "860.832.2715";
 	univ:teaches "CS102";
-	foaf:knows _:BN0, _BN1.
+	foaf:knows _:BN0, _:BN1.
 
 _:BN3	rdf:type foaf:person;
 	foaf:name "Steven";
@@ -37,7 +37,7 @@ _:BN3	rdf:type foaf:person;
 	foaf:email "ambrosinis@ccsu.edu";
 	foaf:phone "860.832.2710";
 	univ:teaches "CS152";
-	foaf:knows _:BN4, _BN5.
+	foaf:knows _:BN4, _:BN5.
 
 _:BN4	rdf:type foaf:person;
 	foaf:name "Jeffery";
@@ -46,16 +46,16 @@ _:BN4	rdf:type foaf:person;
 	foaf:email "jeffrey.blankenship@ccsu.edu";
 	foaf:phone "860.832.2721";
 	univ:teaches "CS152";
-	foaf:knows _:BN3, _BN5.
+	foaf:knows _:BN3, _:BN5.
 
 _:BN5	rdf:type foaf:person;
 	foaf:name "Sixia";
 	foaf:family_name "Chen";
 	vcard:title "Dr.";
 	foaf:email "schen@ccsu.edu";
-	foaf:phone "860.832.2718"
+	foaf:phone "860.832.2718";
 	univ:teaches "CS153";
-	foaf:knows _:BN3, _BN4.
+	foaf:knows _:BN3, _:BN4.
 
 _:BN6	rdf:type foaf:person;
 	foaf:name "Edward";
@@ -64,7 +64,7 @@ _:BN6	rdf:type foaf:person;
 	foaf:email "FreemanE@ccsu.edu";
 	foaf:phone "860.832.2710";
 	univ:teaches "CS253";
-	foaf:knows _:BN7, _BN8.
+	foaf:knows _:BN7, _:BN8.
 
 _:BN7	rdf:type foaf:person;
 	foaf:name "Bradley";
@@ -73,7 +73,7 @@ _:BN7	rdf:type foaf:person;
 	foaf:email "Kjell@ccsu.edu";
 	foaf:phone "860.832.2717";
 	univ:teaches "CS253";
-	foaf:knows _:BN6, _BN8.
+	foaf:knows _:BN6, _:BN8.
 
 _:BN8	rdf:type foaf:person;
 	foaf:name "Stanislav";
@@ -82,7 +82,7 @@ _:BN8	rdf:type foaf:person;
 	foaf:email "kurkovsky@ccsu.edu";
 	foaf:phone "860.832.2720";
 	univ:teaches "CS253";
-	foaf:knows _:BN6, _BN7, _BN1;
+	foaf:knows _:BN6, _:BN7, _:BN1.
 
 _:BN9	rdf:type foaf:person;
 	foaf:name "Zdravko";
@@ -91,7 +91,7 @@ _:BN9	rdf:type foaf:person;
 	foaf:email "MarkovZ@ccsu.edu";
 	foaf:phone "860.832.2711";
 	univ:teaches "CS253";
-	foaf:knows _:BN10, _BN11.
+	foaf:knows _:BN10, _:BN11.
 
 _:BN10	rdf:type foaf:person;
 	foaf:name "Steven";
@@ -100,7 +100,7 @@ _:BN10	rdf:type foaf:person;
 	foaf:email "MeadS@ccsu.edu";
 	foaf:phone "860.832.2710";
 	univ:teaches "CS452";
-	foaf:knows _:BN9, _BN11.
+	foaf:knows _:BN9, _:BN11.
 
 _:BN11	rdf:type foaf:person;
 	foaf:name "Muthu";
@@ -109,7 +109,7 @@ _:BN11	rdf:type foaf:person;
 	foaf:email "SankaranM@ccsu.edu";
 	foaf:phone "860.832.2710";
 	univ:teaches "CS452";
-	foaf:knows _:BN9, _BN10.
+	foaf:knows _:BN9, _:BN10.
 
 _:BN12	rdf:type foaf:person;
 	foaf:name "Paul";
@@ -118,16 +118,16 @@ _:BN12	rdf:type foaf:person;
 	foaf:email "UCCELLOP@ccsu.edu";
 	foaf:phone "860.832.2710";
 	univ:teaches "CS453";
-	foaf:knows _:BN13, _BN14.
+	foaf:knows _:BN13, _:BN14.
 
 _:BN13	rdf:type foaf:person;
 	foaf:name "Chad";
 	foaf:family_name "Willams";
 	vcard:title "Dr.";
 	foaf:email "cwilliams@ccsu.edu";
-	foaf:phone "860.832.2719"
+	foaf:phone "860.832.2719";
 	univ:teaches "CS101";
-	foaf:knows _:BN12, _BN14.
+	foaf:knows _:BN12, _:BN14.
 
 _:BN14	rdf:type foaf:person;
 	foaf:name "Mahdieh";
@@ -136,7 +136,7 @@ _:BN14	rdf:type foaf:person;
 	foaf:email "zabihimayvan@ccsu.edu";
 	foaf:phone "860.832.2716";
 	univ:teaches "CS102";
-	foaf:knows _:BN12, _BN13.
+	foaf:knows _:BN12, _:BN13.
 
 _:BN15	rdf:type foaf:person;
 	foaf:name "Neli";
