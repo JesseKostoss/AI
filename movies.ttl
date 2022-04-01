@@ -4,25 +4,25 @@
 
 _:bn0   rdf:type "Director";
 	foaf:name "Fred";
-	foaf:lastName "Guiol";
+	foaf:family_name "Guiol";
 	univ:directs "Giant".
 
 _:bn1	rdf:type "Director";
 	foaf:name "Elia";
-	foaf:lastName "Kazan";
+	foaf:family_name "Kazan";
 	univ:directs "East of Eden".
 
 _:bn2	rdf:type "Director";
 	foaf:name "George";
-	foaf:lastName "Cukor";
+	foaf:family_name "Cukor";
 	univ:directs "It Should Happen to You".
 
 _:bn3	rdf:type "Director";
 	foaf:name "John";
-	foaf:lastName "Ford";
+	foaf:family_name "Ford";
 	univ:directs "The Searchers".
 
 _:bn4	rdf:type "Director";
 	foaf:name "Nicholas";
-	foaf:lastName "Ray";
+	foaf:family_name "Ray";
 	univ:directs "Rebel Without A Cause".
