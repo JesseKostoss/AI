@@ -1,0 +1,28 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix univ: <http://www.cs.ccsu.edu/~neli/university.owl#>.
+
+_:bn0   rdf:type "Director";
+	foaf:name "Fred";
+	foaf:lastName "Guiol";
+	univ:directs "Giant".
+
+_:bn1	rdf:type "Director";
+	foaf:name "Elia";
+	foaf:lastName "Kazan";
+	univ:directs "East of Eden".
+
+_:bn2	rdf:type "Director";
+	foaf:name "George";
+	foaf:lastName "Cukor";
+	univ:directs "It Should Happen to You".
+
+_:bn3	rdf:type "Director";
+	foaf:name "John";
+	foaf:lastName "Ford";
+	univ:directs "The Searchers".
+
+_:bn4	rdf:type "Director";
+	foaf:name "Nicholas";
+	foaf:lastName "Ray";
+	univ:directs "Rebel Without A Cause".
