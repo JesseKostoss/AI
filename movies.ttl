@@ -1,28 +1,40 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix univ: <http://www.cs.ccsu.edu/~neli/university.owl#>.
+@prefix : <http://www.cs.ccsu.edu/~neli/university.owl#>.
 
 _:bn0   rdf:type "Director";
 	foaf:name "Fred";
 	foaf:family_name "Guiol";
-	univ:directs "Giant".
+	univ:directs "Giant";
+	:year "1956";
+	:starring "Elizabeth Taylor", "Rock Hudson", "James Dean".
 
 _:bn1	rdf:type "Director";
 	foaf:name "Elia";
 	foaf:family_name "Kazan";
-	univ:directs "East of Eden".
+	univ:directs "East of Eden";
+	:year "1955";
+	:starring "Julie Harris", "James Dean", "Raymond Massey".
 
 _:bn2	rdf:type "Director";
 	foaf:name "George";
 	foaf:family_name "Cukor";
-	univ:directs "It Should Happen to You".
+	univ:directs "It Should Happen to You";
+	:year "1954";
+	:starring "Judy Holliday", "Peter Lawford", "Jack Lemmon".
 
 _:bn3	rdf:type "Director";
 	foaf:name "John";
 	foaf:family_name "Ford";
-	univ:directs "The Searchers".
+	univ:directs "The Searchers";
+	:year "1956";
+	:starring "John Wayne", "Jeffery Hunter", "Vera Miles".
+	
 
 _:bn4	rdf:type "Director";
 	foaf:name "Nicholas";
 	foaf:family_name "Ray";
-	univ:directs "Rebel Without A Cause".
+	univ:directs "Rebel Without A Cause";
+	:year "1955";
+	:starring "James Dean", "Natalie Wood", "Sal Mineo".
