@@ -8,33 +8,33 @@ _:bn0   rdf:type "Director";
 	foaf:family_name "Guiol";
 	univ:directs "Giant";
 	:year "1956";
-	:starring "Elizabeth Taylor", "Rock Hudson", "James Dean".
+	:starring "ElizabethTaylor", "RockHudson", "JamesDean".
 
 _:bn1	rdf:type "Director";
 	foaf:name "Elia";
 	foaf:family_name "Kazan";
-	univ:directs "East of Eden";
+	univ:directs "EastofEden";
 	:year "1955";
-	:starring "Julie Harris", "James Dean", "Raymond Massey".
+	:starring "JulieHarris", "JamesDean", "RaymondMassey".
 
 _:bn2	rdf:type "Director";
 	foaf:name "George";
 	foaf:family_name "Cukor";
-	univ:directs "It Should Happen to You";
+	univ:directs "ItShouldHappentoYou";
 	:year "1954";
-	:starring "Judy Holliday", "Peter Lawford", "Jack Lemmon".
+	:starring "JudyHolliday", "PeterLawford", "JackLemmon".
 
 _:bn3	rdf:type "Director";
 	foaf:name "John";
 	foaf:family_name "Ford";
-	univ:directs "The Searchers";
+	univ:directs "TheSearchers";
 	:year "1956";
-	:starring "John Wayne", "Jeffery Hunter", "Vera Miles".
+	:starring "JohnWayne", "JefferyHunter", "VeraMiles".
 	
 
 _:bn4	rdf:type "Director";
 	foaf:name "Nicholas";
 	foaf:family_name "Ray";
-	univ:directs "Rebel Without A Cause";
+	univ:directs "RebelWithoutACause";
 	:year "1955";
-	:starring "James Dean", "Natalie Wood", "Sal Mineo".
+	:starring "JamesDean", "NatalieWood", "SalMineo".
